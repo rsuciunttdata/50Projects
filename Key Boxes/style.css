@@ -38,3 +38,12 @@ body {
   width: 100%;
   font-size: 18px;
 }
+
+.moboInput {
+  border: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+}
