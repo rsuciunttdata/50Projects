@@ -106,3 +106,7 @@ main {
 .movie:hover .overview {
   transform: translateY(0);
 }
+
+.title {
+  color: #fff;
+}
