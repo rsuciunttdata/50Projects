@@ -1,12 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
 
 * {
   box-sizing: border-box;
 }
+
 body {
   background-color: rebeccapurple;
-  font-family: "Ubuntu", "sans-serif";
+  font-family: "Poppins", sans-serif;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -42,10 +44,21 @@ body {
   align-items: flex-end;
 }
 
-.toasts {
+.toast {
   background-color: #fff;
-  color: rebeccapurple;
   border-radius: 5px;
   padding: 1rem 2rem;
   margin: 0.5rem;
+}
+
+.toast.info {
+  color: rebeccapurple;
+}
+
+.toast.success {
+  color: green;
+}
+
+.toast.error {
+  color: red;
 }
